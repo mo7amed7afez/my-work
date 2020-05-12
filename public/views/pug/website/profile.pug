@@ -1,0 +1,174 @@
+extends ../layout.pug
+
+
+block head
+    title= "profile website"
+    // Stylesheets Files
+    link(rel="stylesheet", href="../../css/bootstrap.css")
+    link(rel="stylesheet", href="../../css/font-awesome.css")
+    link(rel="stylesheet", href="../../css/website/profile.css")
+            
+block content
+    // header -------------------------------------------------- start
+    header.text-capitalize
+        // Navbar
+        nav.navbar.color-1
+            .container
+                a(class="nav-brand", href="#") mo7amed7afez
+                // menu
+                div(class="")
+                    ul.d-flex.reset-ul
+                        li(data-link="#about"): a(href="#") about
+                        li(data-link="#skills"): a(href="#") skills
+                        li(data-link="#works"): a(href="#") our works
+                        li(data-link="#testimonlise"): a(href="#") testimonlise
+                        li(data-link="#join"): a(href="#") join us
+                        li(data-link="#contact"): a(href="#") contact
+        .container
+            // header content
+            div(class="header-text col-md-9 col-9 mx-auto carousel slide", id="carouselExampleSlidesOnly", data-ride="carousel")
+                .carousel-inner.h-100
+                    .carousel-item.active.h-100
+                        img(class="w-100 h-100 d-block", src="../../images/header1.jpg", alt="images")
+                        .text
+                            p first carousel item
+                    .carousel-item.h-100
+                        img(class="w-100 h-100 d-block", src="../../images/a1.jpg")
+                        .text
+                            p first carousel item
+                    .carousel-item.h-100
+                        img(class="w-100 h-100 d-block", src="../../images/a.jpg")
+                        .text
+                            p first carousel item
+            // header search
+            .header-search.col-mdx-12.border-1
+                form(class="col-md-9 col-9 mx-auto")
+                    .form-group
+                        input(class="form-control", type="search", name="")
+                        input(class="btn color-3", type="submit", value="search")
+        // button for go to top
+        span(class="go-top", data-link="header")
+    // -------------------------------------------------------------------------------------------- End Header
+    // Section about -------------------------------------------- start
+    .section.container#about
+        .about.col-md-9.col-9.mx-auto.border-1
+            h1.text-capitalize about
+            .row-line
+            // about image
+            .about-image.col-md-7.p-0.h-100.border-1.d-none.d-md-block
+                img(class="d-block w-100 h-100", src="../../images/1.jpg")
+            // about text
+            .about-text.col-md-7.h-100.border-1.color-2
+                p.lead mo7amed hafez is engineer software works in web front-end and full stach and learn programming technique
+    // ------------------------------------------------------- End about
+    // Section skills -------------------------------- start
+    .section.container#skills
+        .skills
+            h1.text-capitalize skills
+            .row-line
+            .row
+                .col-md-4
+                    .skill-items.border-1 one
+                .col-md-4
+                    .skill-items.border-1 two
+                .col-md-4
+                    .skill-items.border-1 three
+                .col-md-4
+                    .skill-items.border-1 four
+                .col-md-4
+                    .skill-items.border-1 five
+    // ------------------------------------------------------- End skills
+    // Section works -------------------------------- start
+    .section.container.px-0#works
+        .works.color-3
+            // title
+            h1.text-capitalize our works
+            .row-line
+            // content
+            .content.col-md-10.mx-auto
+                .row
+                    .col-md-6
+                        .work-item.border-1 test
+                    .col-md-6
+                        .work-item.border-1 test
+                    .col-md-6
+                        .work-item.border-1 test
+                    .col-md-6.mb-50px
+                        .work-item.border-1 test
+    // ---------------------------------------------------------------------------- End works
+    // Section testimonilse -------------------------------- start
+    .section.container#testimonlise
+        .testimonailse
+            h1.text-center.text-capitalize testimonailse
+            .row-line.mx-auto
+            .parent.mx-auto.border-1
+                .d-flex
+                    .member.border-1
+                    .member.border-1
+                    .member.border-1.test-1
+                        // image
+                        img(class="d-block w-100 h-100", src="../../../public/images/1.jpg", data-test="test-1")
+                        // text
+                .member-display.d-flex.test-1
+                    .image
+                        img(class="d-block w-100 h-100", src="../../../public/images/1.jpg")
+                    .text
+                        p.lead mo7amed hafez is engineer software works in web front-end
+    // ------------------------------------------------------------------- End testimonailse
+    // Section join us -------------------------------- start
+    .section.container.pb-0#join
+        .join.col-md-10.mx-auto
+            .content.color-3
+                // title
+                h1.text-center.text-capitalize join us
+                .row-line.mx-auto
+                .col-md-6.mx-auto.pb-3
+                    p.lead.mx-auto mo7amed hafez is engineer software works in web front-end mo7amed hafez is engineer software works in web front-end
+                // form
+                form(class="col-md-9 mx-auto")
+                    .form-group
+                        input(class="form-control", type="search", name="")
+                        input(class="btn color-1", type="submit", value="join us")
+    // ------------------------------------------------------- End join
+    // Footer ------------------------------------- start
+    footer.color-4#contact
+        .container
+            .col-md-10.mx-auto
+                .content
+                    .row
+                        .col-md-5
+                            // contact
+                            .contact.border-1 contact
+                        .col-md-2
+                            // line
+                            .col-line line
+                        .col-md-5
+                            // contact
+                            .contact.py-3
+                                // form
+                                form(class="position-relative")
+                                    .form-group
+                                        label user name:
+                                        input(class="form-control", type="text", name="", placeholder='user name')
+                                    .form-group
+                                        label password:
+                                        input(class="form-control", type="password", name="", placeholder='password')
+                                    .form-group.textarea
+                                        label message:
+                                        textarea(class="form-control", name="", placeholder='write message ...')
+                                    .form-group.m-0
+                                        label
+                                        input(class="btn btn-block color-3", type="submit", value="send")
+        // nav bottom
+        .navbar.nav-bottom.color-1
+            .container
+                // text
+                .text
+                    p.lead mo7amed7afez copyright&copy; reserved for website 2020
+                .social
+                    ul.reset-ul.d-flex
+                        li: a(href=""): i.fa.fa-facebook.fa-fw.fa-lg
+                        li: a(href=""): i.fa.fa-twitter.fa-fw.fa-lg
+                        li: a(href=""): i.fa.fa-youtube.fa-fw.fa-lg
+                        
+                        

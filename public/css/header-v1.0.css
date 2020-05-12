@@ -1,0 +1,66 @@
+body {
+    height: 2000px
+}
+/* Start Header */
+header {
+    background-image: url("../images/header-v1.0.jpg");
+    height: calc(500px - 400px + 500px);
+    background-size: cover;
+    position: relative
+}
+.navbar {
+    box-shadow: 0 1px 0 0 #000
+}
+.navbar > .container.d-md-flex {
+    justify-content: space-between 
+}
+.navbar a {
+    color: #fff
+}
+.navbar button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0
+}
+.navbar .socail-media .d-flex {
+    justify-content: center
+}
+
+.navbar .nav-item a {
+    transition: all .5s ease-in-out 0s
+}
+.navbar .nav-item:hover a {
+    color: #0f0
+}
+.navbar .fa {
+    transition: all .5s ease-in-out 0s
+}
+.navbar .fa.fa-facebook:hover {
+    color: #00f
+}
+.navbar .fa.fa-google:hover {
+    color: #f00
+}
+
+.navbar .fa.fa-twitter:hover {
+    color: #0f0
+}
+@media (max-width: 749px) {
+    .navbar .nav-collapse {
+        position: absolute;
+        background: #999;
+        left: 0;
+        top: 100%;
+        width: 30%
+    }
+    .navbar .nav-collapse .fa {
+        position: absolute;
+        right: 0;
+        font-size: 14px
+    }
+}
+/* End Header */
+section {
+    padding-top: 60px;
+}

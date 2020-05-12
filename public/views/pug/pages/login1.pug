@@ -1,0 +1,26 @@
+extends ../layout.pug
+
+block head
+    title= "login1"
+    // Stylesheets Files
+    link(rel="stylesheet", href="../../css/bootstrap.css")
+    link(rel="stylesheet", href="../../css/font-awesome.css")
+    link(rel="stylesheet", href="../../css/pages/login1.css")
+
+block content
+    .login1.col-sm-4.m-auto
+        .image-logo.mx-auto.my-3
+            img(class="width-100", src="../../images/1.jpg", alt=" ")
+        form(class="border-1 p-3", action="", method="")
+            .form-group
+                label user name:
+                input(class="form-control", type="text", name="user", placeholder="user name", required, autocomplete="off")
+            .form-group
+                label password:
+                input(class="form-control", type="password", name="password", placeholder="password", required, autocomplete="off")
+            .form-group
+                input(class="btn btn-block color-1", type="submit", value="login")
+            .form-group
+                input(type="checkbox", id="remember")
+                label(for="remember") remember me
+                

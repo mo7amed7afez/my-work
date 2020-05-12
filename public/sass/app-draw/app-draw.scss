@@ -1,0 +1,38 @@
+// import class file  =======>
+@import "../global/classes";
+// ===========================
+    
+/*  start app draw */    
+.area-work.p-fixedy-0  {
+    right: 0; // ltr
+    left: 250px; // rtl
+}
+//===> control alt
+.control-alt.p-fixedy-0 {
+    left: 50px;
+    width: 200px;
+    opacity: .8
+}
+//===> control main
+.control-main.p-fixedy-0 {
+    left: 0;
+    width: 50px;
+    // list
+    .list {
+        bottom: 0
+    }
+}
+//===> settings
+.display-element {
+    background: rgba(0, 0, 0, .5);
+    .element {
+        min-height: 250px;
+    }
+}
+
+/* *********************************** End app */
+
+// import color file  ================================> main
+@import "colors";
+// =========================================================
+    

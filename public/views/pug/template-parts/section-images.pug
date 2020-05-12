@@ -1,0 +1,39 @@
+extends ../layout.pug
+
+
+block head
+    title= "display images"
+    // Stylesheets Files
+    link(rel="stylesheet", href="../../css/bootstrap.css")
+    link(rel="stylesheet", href="../../css/font-awesome.css")
+    link(rel="stylesheet", href="../../css/template-parts/section-images.css")
+            
+block content
+    // images -------------------------------------------------- start
+    .images.container-fluid
+        .row
+            .col-md-4
+                .section-image
+                    img(class="w-100 h-100 d-block", src="../../images/a1.jpg")
+            .col-md-4
+                .section-image
+                    img(class="w-100 h-100 d-block", src="../../images/a1.jpg")
+            .col-md-4
+                .section-image
+                    img(class="w-100 h-100 d-block", src="../../images/a1.jpg")
+    // ---------------------------------------------------------------------------------------- End
+    // Display images ================================> start
+    .focus-window
+        //===> tools
+        .tools
+            i(class="fa fa-list fa-fw fa-lg", data-show="#menuFocusWindow")
+            i(class="fa fa-close fa-fw fa-lg", data-hide=".focus-window")
+        //====> menu
+        .menu.color-2#menuFocusWindow
+            .row.m-0
+                .image-menu.col-md-6
+                    img(class="w-100 h-100 d-block", src="../../images/1.jpg")
+        //===> image box
+        .col-md-8.mx-auto
+            .image-box
+                img(class="w-100 h-100 d-block", src="../../images/1.jpg")

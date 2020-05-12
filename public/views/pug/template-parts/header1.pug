@@ -1,0 +1,30 @@
+extends ../layout.pug
+
+block head
+    title= "header1"
+    // Stylesheets Files
+    link(rel="stylesheet", href="../../css/bootstrap.css")
+    link(rel="stylesheet", href="../../css/font-awesome.css")
+    link(rel="stylesheet", href="../../css/template-parts/header1.css")
+
+block content
+    header.header
+        // Navbar ----------------------------------------
+        nav(class="navbar color-1")
+            .container
+                a(class="nav-brand", href="#") mo7amed7afez
+                div(class="collapse")
+                ul.d-flex.reset-ul
+                    li: a(href="#") about
+                    li: a(href="#") blog
+                    li: a(href="#") contact
+        .header-content.container.header-100
+            // header text & images ------------------------------
+            .header-text.col-md-9.col-9.mx-auto.color-2
+                |text
+            // header search --------------------------------------
+            .header-search.col-md-12.border-1
+                form.col-md-9.col-9.mx-auto
+                    .form-group
+                        input(class="form-control", type="search", placeholder="seach")
+                        input(class="btn color-1", type="submit", value="search")

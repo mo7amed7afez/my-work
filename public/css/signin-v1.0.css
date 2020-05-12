@@ -1,0 +1,87 @@
+/* Start Login */
+.content {
+    position: relative
+}
+.login-page .signin {
+    position: absolute;
+    top: 15%;
+    right: 25%;
+    left: 25%
+}
+.login-page .signin .title .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden
+}
+.login-page .signin .title h5 {
+    
+}
+@media (max-width: 749px) {
+    .login-page .signin {
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        left: 5%
+    }
+}
+
+/* End Login */
+
+.settings {
+    position: absolute;
+    top: 3px;
+    left: 5px
+}
+.settings span {
+    display: block;
+    line-height: .3;
+    font-size: 30px
+}
+.settings .setting-menu {
+    position: absolute;
+    background: #ddd;
+    top: 10px;
+    left: 10px;
+    display: none
+}
+.setting-menu li {
+    padding: 5px 10px;
+    cursor: pointer
+}
+/* Part Color Theme */
+.theme {
+    position: absolute;
+    top: 30%;
+    right: 35%;
+    left: 35%
+        
+}
+.theme .panel-heading {
+    animation: show-heading 2s ease-in-out
+}
+.theme .panel-body {
+    background: #666;
+    height: 150px;
+    animation: show-body 2s ease-in-out
+}
+@keyframes show-heading {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1);
+    }
+}
+@keyframes show-body {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.theme .inner-box {
+    width: 70%;
+    
+}

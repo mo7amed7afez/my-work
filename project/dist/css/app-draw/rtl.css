@@ -1,0 +1,15 @@
+/* right to left file */
+.area-work.p-fixedy-0 {
+  right: 250px;
+  left: 0;
+}
+
+.control-alt.p-fixedy-0 {
+  left: none;
+  right: 50px;
+}
+
+.control-main.p-fixedy-0 {
+  left: 0;
+  width: 50px;
+}

@@ -1,0 +1,68 @@
+// import class file  =======>
+@import "../global/classes";
+// ===========================
+    
+/*  start section images */    
+.images {
+    .section-image {
+        overflow: hidden;
+        transition: all .5s;
+        // hover
+        &:hover {
+            opacity: .5
+        }
+    }
+}
+
+/* *********************************** End images */
+
+// import color file  ================================> main
+@import "../global/colors";
+// =========================================================
+
+.focus-window {
+    background: rgba(0, 0, 0, .9);
+    color: #999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    //===> tools
+    .tools {
+        background: #333;
+        position: absolute;
+        right: 0;
+        padding: 10px
+    }
+    //====> menu
+    .menu {
+        width: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 5px;
+        overflow: auto;
+        .image-menu {
+            height: 150px;
+            padding: 5px
+        }
+    }
+    // image box
+    .image-box {
+        background: #fff; // colors
+        max-width: 650px;
+        min-height: 400px;
+        max-height: 600px;
+        overflow: hidden;
+        margin: 70px auto
+    }
+}
+
+.mr-250px {
+    margin-right: 20%
+}
+.w-250px {
+    width: 20% !important;
+}

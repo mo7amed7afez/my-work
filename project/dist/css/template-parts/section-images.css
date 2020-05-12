@@ -1,0 +1,186 @@
+/* Start Global classes */
+.image-logo {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.row-line {
+  width: 120px;
+  height: 0;
+  border: 1px solid;
+  margin-bottom: 25px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.mr-250px {
+  margin-right: 20%;
+}
+
+.w-250px {
+  width: 20% !important;
+}
+
+.border-1 {
+  border: 1px solid;
+}
+
+.reset-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reset-ul > li {
+  padding: 10px;
+}
+
+.section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.p-fixed-0 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.p-fixedy-0 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.p-absolute-10 {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  left: 10%;
+}
+
+@media (min-width: 768px) {
+  .p-absolute-10 {
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    left: 40%;
+  }
+}
+
+/* *************************************************** End Classes **************** */
+/*  start section images */
+.images .section-image {
+  overflow: hidden;
+  transition: all .5s;
+}
+
+.images .section-image:hover {
+  opacity: .5;
+}
+
+/* *********************************** End images */
+/* Colors Themes */
+.light-theme {
+  background: #ddd;
+  color: #000;
+}
+
+.light-theme a {
+  color: #0f0;
+}
+
+.light-theme .color-1 {
+  background-color: #000;
+  color: #fff;
+}
+
+.light-theme .color-1 a {
+  color: #fff;
+}
+
+.light-theme .color-2 {
+  background-color: #fff;
+  color: #000;
+}
+
+.light-theme .color-2 a {
+  color: #000;
+}
+
+.light-theme .color-3 {
+  background-color: #c0f;
+  color: #fff;
+}
+
+.light-theme .color-3 a {
+  color: #fff;
+}
+
+.light-theme .color-4 {
+  background-color: #666;
+  color: #fff;
+}
+
+.light-theme .color-4 a {
+  color: #fff;
+}
+
+.focus-window {
+  background: rgba(0, 0, 0, 0.9);
+  color: #999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.focus-window .tools {
+  background: #333;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+}
+
+.focus-window .menu {
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 5px;
+  overflow: auto;
+}
+
+.focus-window .menu .image-menu {
+  height: 150px;
+  padding: 5px;
+}
+
+.focus-window .image-box {
+  background: #fff;
+  max-width: 650px;
+  min-height: 400px;
+  max-height: 600px;
+  overflow: hidden;
+  margin: 70px auto;
+}
+
+.mr-250px {
+  margin-right: 20%;
+}
+
+.w-250px {
+  width: 20% !important;
+}

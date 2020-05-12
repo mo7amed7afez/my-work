@@ -1,0 +1,138 @@
+/* Start Global classes */
+.image-logo {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.row-line {
+  width: 120px;
+  height: 0;
+  border: 1px solid;
+  margin-bottom: 25px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.mr-250px {
+  margin-right: 20%;
+}
+
+.w-250px {
+  width: 20% !important;
+}
+
+.border-1 {
+  border: 1px solid;
+}
+
+.reset-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reset-ul > li {
+  padding: 10px;
+}
+
+.section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.p-fixed-0 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.p-fixedy-0 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.p-absolute-10 {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  left: 10%;
+}
+
+@media (min-width: 768px) {
+  .p-absolute-10 {
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    left: 40%;
+  }
+}
+
+/* *************************************************** End Classes **************** */
+/*  start app draw */
+.area-work.p-fixedy-0 {
+  right: 0;
+  left: 250px;
+}
+
+.control-alt.p-fixedy-0 {
+  left: 50px;
+  width: 200px;
+  opacity: .8;
+}
+
+.control-main.p-fixedy-0 {
+  left: 0;
+  width: 50px;
+}
+
+.control-main.p-fixedy-0 .list {
+  bottom: 0;
+}
+
+.display-element {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.display-element .element {
+  min-height: 250px;
+}
+
+/* *********************************** End app */
+/* change theme depends on classes */
+.green-theme .color-main {
+  background-color: #0f0;
+  color: #fff;
+}
+
+.green-theme .color-main a {
+  color: #fff;
+}
+
+.green-theme .color-alt {
+  background-color: orangered;
+  color: #000;
+}
+
+.green-theme .color-alt a {
+  color: #000;
+}
+
+.green-theme .color-select {
+  background-color: #fff;
+  color: #0f0;
+}
+
+.green-theme .color-select a {
+  color: #0f0;
+}

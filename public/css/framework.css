@@ -1,0 +1,30 @@
+/* Start My Framework */
+
+.reset-a {
+  text-decoration: none;
+}
+
+.reset-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.text-center {
+    text-align: center !important;
+}
+.text-capitalize {
+    text-transform: capitalize !important;
+}
+
+@media (max-width: 550px) {
+
+}
+
+@media (min-width: 551px) {
+
+}
+
+@media (min-width: 950px) {
+
+}
+

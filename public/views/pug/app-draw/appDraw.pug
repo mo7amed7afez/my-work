@@ -1,0 +1,45 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        block head
+            title= title
+            // Stylesheets Files
+            link(rel="stylesheet", href="../../css/bootstrap.css")
+            link(rel="stylesheet", href="../../css/font-awesome.css")
+            link(rel="stylesheet", href="../../css/app-draw/app-draw.css")
+    body.green-theme
+        block content
+            //===> area work ------------------- start
+            .area-work.p-fixedy-0 area work
+            .control-alt.p-fixedy-0.color-main
+            .control-main.p-fixedy-0.color-main
+                .list.position-absolute
+                    ul.reset-ul
+                        li(data-show="add-project"): i.fa.fa-plus.fa-fw.fa-lg
+                        li(data-show="open-project"): i.fa.fa-add.fa-fw.fa-lg open
+                        li(data-show="export-project"): i.fa.fa-export.fa-fw.fa-lg ex
+                        li(data-show="setting-website"): i.fa.fa-dashboard.fa-fw.fa-lg
+
+            // -------------------------------------------------------------------------- End area work
+            //===> display hide element ------------------------------ start
+            .display-element.p-fixed-0
+                .element.p-absolute-10.color-main
+                    .settings.p-3
+                        h3 settings
+                        form
+                            .form-group
+                                label language
+                                select
+                                    option(value="0", disabled) chooce language
+                            hr
+                            .form-group
+                                label theme
+                                select
+                                    option(value="0", disabled) default
+            //==================================================================== end display
+        
+        // Javascripts Files
+        script(src="../../js/jquery-3.4.1.min.js")
+        script(src="../../js/nice-scroll.js")
+        script(src="../../js/app-draw.js")

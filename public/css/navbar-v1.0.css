@@ -1,0 +1,59 @@
+/* Start Navbar */
+.navbar > .container.d-md-flex {
+    justify-content: space-between
+}
+.navbar a {
+    color: #fff
+}
+.navbar button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0
+}
+.navbar .socail-media ul {
+    justify-content: center
+}
+.navbar .nav-item,
+.navbar .nav-item a {
+    transition: all .5s ease-in-out 0s
+}
+.navbar .nav-item:hover {
+    background: #ddd;
+}
+.navbar .nav-item:hover a {
+    color: #0f0
+}
+.navbar .fa {
+    padding: 5px;
+    transition: all .5s ease-in-out 0s
+}
+.navbar .fa.fa-facebook:hover {
+    color: #00f;
+    background: #fff
+}
+.navbar .fa.fa-google:hover {
+    color: #f00;
+    background: #fff
+}
+.navbar .fa.fa-twitter:hover {
+    color: #0f0;
+    background: #fff
+}
+@media (max-width: 749px) {
+    .navbar .nav-collapse {
+        position: absolute;
+        background: #999;
+        left: 0;
+        top: 100%;
+        width: 30%;
+    }
+    .navbar .nav-collapse .fa {
+        position: absolute;
+        right: 0;
+        font-size: 14px
+    }
+}
+/* End Navbar */
+
+

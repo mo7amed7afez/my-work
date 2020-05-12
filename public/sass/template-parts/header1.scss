@@ -1,0 +1,63 @@
+// import class file
+@import "../global/classes";
+    
+    
+/*  start header 1 */    
+header {
+    // properties 
+    position: relative;
+    // Navbar ------------------------
+    nav.navbar {
+        margin-bottom: 50px;
+    }
+    // content
+    .header-content {
+        // text
+        .header-text {
+            background-image: url("../../images/header1.jpg");
+            height: 60%;
+            margin-bottom: -15%;
+            z-index: 5555;
+        }
+        // search
+        .header-search {
+            height: 50%;
+            form {
+                position: relative;
+                margin-top: 20%;
+                &.col-md-9.col-9 {
+                    padding: 0;
+                }
+                // form group
+                .form-group {
+                    margin-right: -12px;
+                    margin-left: -12px;
+                    input.btn {
+                        position: absolute;
+                        right: -12px;
+                        top: 0;
+                        border: none
+                    }
+                }
+            }
+        }
+    }
+}  
+    
+    
+    
+    
+    
+/* ************************* End header 1 ********** */
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+// import color file
+@import "../global/colors";

@@ -1,0 +1,27 @@
+/* Start Header */
+header {
+    background: #0f0
+}
+header .navbar {
+    background: #222
+}
+header .navbar a {
+    color: #fff
+}
+header .navbar .container.d-md-flex {
+    justify-content: space-between;
+}
+
+@media (max-width: 749px) {
+    header .navbar .nav-collapse {
+        background: #333;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        padding: 0px 20px;
+        height: calc(100% - 10px)
+    }
+}
+    
+/* End Header */

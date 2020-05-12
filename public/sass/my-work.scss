@@ -1,0 +1,110 @@
+/* Start Style for My Works Dashboard */
+.my-works {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    // control
+    aside {
+        position: relative;
+        width: 300px;
+        height: 100%;
+        background: #000; // colors
+        color: #fff;
+        // title
+        .title {
+            background: #c0f;
+            padding: 5px;
+        }
+        // body
+        .aside-body {
+            height: calc(100% - 120px);
+            border: 1px solid #c0f;
+            .nav-menu {
+                background: #222;
+                border-bottom: 1px solid;
+            }
+            // menu
+            ul {
+                background: #fff; // colors
+                color: #000;
+                & li[data-show]:hover {
+                    background: #666!important
+                }
+                & > ul {
+                    display: none
+                }
+            }
+        }
+        // preview icont
+        .preview-icon {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background: #c0f;
+        }
+    }
+    // display content
+    .display-content {
+        position: absolute;
+        top: 0;
+        right: auto;
+        bottom: 40px;
+        left: 300px;
+        max-height: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        background: #ccc; // colors
+        // iframe create inner browser
+        iframe {
+            width: 100%;
+            height: 100%
+        }
+    }
+    // part preview
+    &.preview-mobile .display-content {
+        margin: auto 0 auto -100px;
+        width: 320px;
+        height: 480px;
+        max-height: 100%;
+        max-width: 100%;
+        left: 50%
+    }
+    &.preview-tablet .display-content {
+        margin: auto 0 auto -300px;
+        width: 720px;
+        height: 1080px;
+        max-height: 100%;
+        max-width: 100%;
+        left: 50%;
+    }
+    &.preview-desktop .display-content {
+        width: 100%;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+    // footer
+    footer {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 300px;
+        background: #000; // colors
+        border-top: 2px solid #c0f;
+        color: #fff;
+        p {
+            margin: 3px
+        }
+    }
+}
+
+
+/* classes */
+.ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}

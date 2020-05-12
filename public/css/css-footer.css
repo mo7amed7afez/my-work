@@ -1,0 +1,52 @@
+
+
+/* Part Footer */
+
+footer {
+    background: var(--green);
+    color: var(--white);
+    padding-top: 50px;
+}
+
+footer .content {
+    height: 150px;
+    box-shadow: 0px 0px 1px;
+    padding: 5px 10px
+}
+
+.form-control::-webkit-input-placeholder {
+    color: var(--green)
+}
+
+label:first-letter {
+    text-transform: capitalize;
+    color: #000;
+    font-weight: bold
+}
+footer .contact textarea {
+    height: 150px !important;
+    resize: none;
+}
+
+footer .contact input, textarea {
+    margin-bottom: 5px;
+    
+}
+.nav-bottom {
+    background: var(--green);
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 12)
+}
+.nav-bottom p {
+    margin: 0
+}
+label {
+    margin: 0
+}
+
+
+
+
+

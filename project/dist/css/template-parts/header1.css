@@ -1,0 +1,168 @@
+/* Start Global classes */
+.image-logo {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.row-line {
+  width: 120px;
+  height: 0;
+  border: 1px solid;
+  margin-bottom: 25px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.mr-250px {
+  margin-right: 20%;
+}
+
+.w-250px {
+  width: 20% !important;
+}
+
+.border-1 {
+  border: 1px solid;
+}
+
+.reset-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reset-ul > li {
+  padding: 10px;
+}
+
+.section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.p-fixed-0 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.p-fixedy-0 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.p-absolute-10 {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  left: 10%;
+}
+
+@media (min-width: 768px) {
+  .p-absolute-10 {
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    left: 40%;
+  }
+}
+
+/* *************************************************** End Classes **************** */
+/*  start header 1 */
+header {
+  position: relative;
+}
+
+header nav.navbar {
+  margin-bottom: 50px;
+}
+
+header .header-content .header-text {
+  background-image: url("../../images/header1.jpg");
+  height: 60%;
+  margin-bottom: -15%;
+  z-index: 5555;
+}
+
+header .header-content .header-search {
+  height: 50%;
+}
+
+header .header-content .header-search form {
+  position: relative;
+  margin-top: 20%;
+}
+
+header .header-content .header-search form.col-md-9.col-9 {
+  padding: 0;
+}
+
+header .header-content .header-search form .form-group {
+  margin-right: -12px;
+  margin-left: -12px;
+}
+
+header .header-content .header-search form .form-group input.btn {
+  position: absolute;
+  right: -12px;
+  top: 0;
+  border: none;
+}
+
+/* ************************* End header 1 ********** */
+/* Colors Themes */
+.light-theme {
+  background: #ddd;
+  color: #000;
+}
+
+.light-theme a {
+  color: #0f0;
+}
+
+.light-theme .color-1 {
+  background-color: #000;
+  color: #fff;
+}
+
+.light-theme .color-1 a {
+  color: #fff;
+}
+
+.light-theme .color-2 {
+  background-color: #fff;
+  color: #000;
+}
+
+.light-theme .color-2 a {
+  color: #000;
+}
+
+.light-theme .color-3 {
+  background-color: #c0f;
+  color: #fff;
+}
+
+.light-theme .color-3 a {
+  color: #fff;
+}
+
+.light-theme .color-4 {
+  background-color: #666;
+  color: #fff;
+}
+
+.light-theme .color-4 a {
+  color: #fff;
+}

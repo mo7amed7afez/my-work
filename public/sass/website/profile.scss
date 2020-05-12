@@ -1,0 +1,208 @@
+// import class file  =======>
+@import "../global/classes";
+// ===========================
+    
+/*  start profile website */    
+/* Header ------------------------------ start */
+header {
+    // Navbar
+    nav.navbar {
+        margin-bottom: 25px
+    }
+    // header text
+    .header-text {
+        height: 350px;
+        margin-bottom: -100px
+    }
+    // header search
+    .header-search {
+        height: 250px;
+        // form
+        form.col-md-9.col-9 {
+            position: relative;
+            margin-top: 150px;
+            input.btn {
+                position: absolute;
+                right: 15px;
+                top: 0;
+                border: none
+            }
+        }
+    }
+    // button for go to top
+    .go-top {
+        position: fixed;
+        right: 50px;
+        bottom: 50px;
+        display: none;
+        width: 20px;
+        height: 20px;
+        z-index: 999;
+        background: #0f0; // color
+    }
+}
+
+/* ----------------------------------------------------------- End Header */
+/* section about ----------------- start */
+.about {
+    height: 300px;
+    margin-top: 150px;
+    // about image
+    .about-image {
+        margin-top: -160px;
+        margin-left: 495px
+    }
+    // about text
+    .about-text {
+        margin-top: -10px;
+        margin-left: -155px;
+        padding-top: 30px
+    }
+}
+/* ---------------------------------------------- End about */
+/* section skills ----------------- start */
+.skills {
+    margin-top: 170px;
+    .skill-items {
+        height: 250px;
+        margin-bottom: 20px
+    }
+}
+/* ---------------------------------------------- End skills */
+/* section our works ----------------- start */
+.works {
+    padding: 15px 15px 0;
+    // title
+    .row-line {
+        width: 200px
+    }
+    // content
+    .work-item {
+        height: 350px;
+        margin-bottom: 30px
+    }
+}
+/* ---------------------------------------------- End our works */
+/* section testimonailse  ----------------- start */
+.testimonailse {
+    // container for member
+    .parent {
+        position: relative;
+        width: 70%;
+        height: 250px;
+        border-radius: 125px;
+        margin-top: 30px;
+        // children
+        .member {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 25px;
+            overflow: hidden;
+        }
+        // member display
+        .member-display {
+            background: #0f0;
+            position: absolute;
+            top: 0;
+            left: 25%;
+            width: 250;
+            height: 250px;
+            border-radius: 125px;
+            transition: all .5s;
+            display: none !important;
+            // image
+            .image {
+                width: 250px;
+                height: 250px;
+                border-radius: 250px;
+                overflow: hidden
+            }
+            // text
+            .text {
+                padding: 98px 9px;
+                display: none
+            }
+            &.test {
+                animation: move .5s ease-in-out
+            }
+            &.xyz {
+                width: 100%;
+                left: 0
+            }
+            
+        }
+    }
+}
+/* ---------------------------------------------- End testimonailse */
+/* section join us ----------------- start */
+.join .content {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: -70px;
+    // form
+    form .form-group input.btn {
+        position: absolute;
+        right: 0;
+        top: 0
+    }
+}
+/* ---------------------------------------------- End join us */
+/* footer ----------------- start */
+footer {
+    // content
+    .content {
+        padding-top: 100px;
+        // contact
+        .contact {
+            form .form-control,
+            form input.btn {
+                width: 75%;
+                display: inline-block;
+            }
+            // textarea
+            .form-group.textarea {
+                height: 150px;
+            }
+            form textarea {
+                resize: none;
+                height: 150px
+            }
+            form.position-relative input,
+            form.position-relative textarea {
+                position: absolute;
+                right: 0; // responsive
+            }
+        }
+    }
+    // nav bottom
+    .nav-bottom {
+        margin-top: 35px
+    }
+}
+/* ---------------------------------------------- End footer */
+    
+/* ************************* End profile website  ********** */
+
+// for test   
+ 
+  
+    
+@keyframes move {
+    from {
+        width: 50%;
+        left: 25%
+    }
+    to {
+        width: 100%;
+        left: 0
+    }
+} 
+
+.mb-50px {
+    margin-bottom: -50px
+}
+    
+// import color file  ================================> main
+@import "../global/colors";
+// =========================================================

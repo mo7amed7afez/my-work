@@ -1,0 +1,37 @@
+/* Colors Themes */
+// light theme
+.light-theme {
+    background: #ddd;
+    color: #000;
+    a {
+        color: #0f0
+    }
+    .color-1 {
+        background-color: #000;
+        color: #fff;
+        a {
+            color: #fff
+        }
+    }
+    .color-2 {
+        background-color: #fff;
+        color: #000;
+        a {
+            color: #000;
+        }
+    }
+    .color-3 {
+        background-color: #c0f;
+        color: #fff;
+        a {
+            color: #fff
+        }
+    }
+    .color-4 {
+        background-color: #666;
+        color: #fff;
+        a {
+            color: #fff
+        }
+    }
+}
